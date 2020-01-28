@@ -11,6 +11,7 @@ class counter extends Component {
     }
 
     increament(){
+      //setState is async
         this.setState({
             count : this.state.count + 1
             

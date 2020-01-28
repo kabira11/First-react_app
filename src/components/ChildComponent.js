@@ -1,5 +1,6 @@
 import React from 'react'
 //rfce to create react functional component snippet
+//if you want send parameter in props method then use () => props.methodName("parameter")
 function ChildComponent(props) {
   return (
     <div>

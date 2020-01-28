@@ -1,5 +1,5 @@
 import React from 'react'
-//Type rfce for import react class component
+//Type rfce for import react functional  component
 
 function FunctionClick() {
 
@@ -10,7 +10,7 @@ function FunctionClick() {
     
   return (
     <div>
-      <button onClick = {ClickHandler}>Click</button>
+      <button onClick = {ClickHandler}>Click funtion component</button>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import React from 'react';
 // }
 
 // Using ARROW function
-
+//{props.children} used when we are sending something within the component.
 const first = (props) => {
     console.log(props);
     return (
@@ -14,6 +14,7 @@ const first = (props) => {
             <h1>
                 Hello {props.name} {props.sirName}
             </h1>
+            
                 {props.children}
         </div>
     )
